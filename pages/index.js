@@ -1,11 +1,8 @@
-import styles from '../styles/Home.module.css'
 import { initializeApollo, addApolloState } from '../lib/apolloClient'
 import GunplaList, { ALL_GUNPLAS_QUERY } from '../components/GunplaList'
 
 const Home = () => (
-  <div className={styles.container}>
     <GunplaList />      
-  </div>
 )
 
 export async function getStaticProps() {

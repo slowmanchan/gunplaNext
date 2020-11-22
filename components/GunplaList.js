@@ -27,8 +27,16 @@ export default function GunplaList() {
     <table>
       <thead>
         <tr>
-          <td>Title</td>
-          <td>Subtitle</td>
+          <th>title</th>
+          <th>subtitle</th>
+          <th>classification</th>
+          <th>lineup</th>
+          <th>scale</th>
+          <th>franchise</th>
+          <th>releaseDate</th>
+          <th>janIsbn</th>
+          <th>run</th>
+          <th>price</th>
         </tr>
       </thead>
       <tbody>
